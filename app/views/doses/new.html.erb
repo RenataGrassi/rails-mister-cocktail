@@ -1,0 +1,7 @@
+<div class="w-50 m-auto">
+  <%= simple_form_for [@cocktail, @dose]  do |form| %>
+    <%= form.input :description %>
+    <%= form.association :cocktail %>
+    <%= form.submit %>
+  <% end %>
+  </div>
